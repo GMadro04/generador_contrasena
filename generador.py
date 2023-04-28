@@ -17,4 +17,4 @@ for i in range(15):  # el 15 es el numero de caracteres que llevará la contrase
 
 contrasena = "".join(contrasena)
 
-print("La contraseña es: ", contrasena)
+print("La contraseña es:", contrasena)
