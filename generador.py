@@ -12,8 +12,8 @@ fusion = mayúsculas+minúsculas+symbols+numero
 contraseña = []
 # Aquí va el ciclo con el que se arma la contraseña 
 for i in range(10):
-    select = random.choice(contraseña)
+    select = random.choice(fusion)
     contraseña.append(select)
     contraseña = "".join(contraseña)
-    return contraseña
-    
+
+print("La contraseña es: ", contraseña)
