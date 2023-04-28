@@ -7,13 +7,14 @@ symbols = ['*', '+', '-', '/', '@', '_', '?', '!', '[', '{', '(', ')']
 numero = ['1','2','3','4','5']
 
 # Uno las listas para hacer una sola donde van a ser seleccionadas
-fusion = mayúsculas+minúsculas+symbols+numero
+caracteres = mayúsculas + minúsculas + symbols + numero
 # Creo una lista vacía para llenar la contraseña
-contraseña = []
-# Aquí va el ciclo con el que se arma la contraseña 
-for i in range(10):
-    select = random.choice(fusion)
-    contraseña.append(select)
-    contraseña = "".join(contraseña)
+contrasena = []
 
-print("La contraseña es: ", contraseña)
+for i in range(15):  # el 15 es el numero de caracteres que llevará la contraseña puede ser cualquiera 8-7 etc
+    carcter_random = random.choice(caracteres)
+    contrasena.append(carcter_random)
+
+contrasena = "".join(contrasena)
+
+print("La contraseña es: ", contrasena)
