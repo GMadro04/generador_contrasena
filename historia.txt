@@ -9,4 +9,10 @@ Master 2
 
 Experimento 1
 
+<<<<<<< HEAD
 master1
+=======
+Experimento 2 
+
+master1
+>>>>>>> 885b050 (Experimento2)
