@@ -1,2 +1,6 @@
 Hola repasando conceptos de las primeras clases
 Este es un nueva linea de texto
+
+Vamos a probar el Rebase, no es una buena práctica hacerlo en repositorios remotos (Github)
+solo se debe hacer en repositorios locales (Git)
+master1
